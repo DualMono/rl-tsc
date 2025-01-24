@@ -17,3 +17,7 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Extra logs and saved models
+logs/
+saves/
