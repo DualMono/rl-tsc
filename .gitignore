@@ -1,0 +1,19 @@
+.idea
+*.OUT
+checkpoints
+.ipynb_checkpoints
+# Triton output
+*.out
+# LaTeX output
+plots/build
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv

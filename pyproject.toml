@@ -1,0 +1,18 @@
+[project]
+name = "rl-tsc"
+version = "0.1.0"
+description = "Reinforcement learning an artificial topological superconductor"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "gradio>=5.12.0",
+    "ipykernel>=6.29.5",
+    "pip>=24.3.1",
+    "pyqula",
+    "sbx-rl>=0.19.0",
+    "tbparse>=0.0.9",
+    "tensorboard>=2.18.0",
+]
+
+[tool.uv.sources]
+pyqula = { git = "https://github.com/DualMono/pyqula", rev = "dev" }
